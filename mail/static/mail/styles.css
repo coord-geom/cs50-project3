@@ -1,3 +1,18 @@
 textarea {
     min-height: 400px;
 }
+
+.email {
+    border: 1px solid black;
+}
+
+.info-left {
+    display: block; 
+    margin: 10px;
+}
+
+.date-right {
+    display: block;
+    float: right;
+    margin-left: 10px;
+}

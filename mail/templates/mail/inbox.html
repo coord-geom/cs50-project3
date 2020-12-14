@@ -26,9 +26,20 @@
             <div class="form-group">
                 <input class="form-control" id="compose-subject" placeholder="Subject">
             </div>
-            <textarea class="form-control" id="compose-body" placeholder="Body"></textarea>
+            <textarea class="form-control" id="compose-body" placeholder="Body"></textarea><br>
             <input type="submit" class="btn btn-primary"/>
         </form>
+    </div>
+
+    <div id="email-view">
+        <p id="sender"></p>
+        <p id="recipients"></p>
+        <p id="subject"></p>
+        <p id="timestamp"></p>
+        <button class="btn btn-sm btn-outline-primary" id="reply">Reply</button>
+        <button class="btn btn-sm btn-outline-primary" id="archive">Archive Email</button>
+        <hr>
+        <p id="body"></p>
     </div>
 {% endblock %}
 
